@@ -1,0 +1,96 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 58%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  // background: red;
+  overflow: hidden;
+
+  .projects-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 50%;
+
+    .projects-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      background: transparent;
+      opacity: 100%;
+      transition: ease 0.3s;
+
+      img {
+        background: transparent;
+        width: 80%;
+        height: auto;
+        transition: ease 0.3s;
+      }
+      
+      .middle {
+        position: absolute;
+        padding: 6px;
+        transition: ease-in 0.3s;
+        opacity: 0%;
+        background: none;
+        color: #ffffff;
+        
+        .text {
+          color: #ffffff;
+          font-size: 24px;
+          padding: 16px 32px;
+          background: none;
+        }
+        
+        
+      }
+      
+      &:hover img {
+        opacity: 70%;
+      }
+
+      &:hover .middle {
+        display: block;
+        opacity: 1;
+      }
+    }
+  }
+
+  .projects-row2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .projects-container {
+    height: 70%;
+    width: 70%;
+    overflow: scroll;
+    justify-content: flex-start;
+
+    .projects-row {
+      flex-direction: column;
+      height: auto;
+
+      .projects-card {
+        width: 70%;
+        height: auto;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

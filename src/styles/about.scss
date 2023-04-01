@@ -1,0 +1,89 @@
+.profile-picture {
+  box-sizing: border-box;
+  width: 132px;
+  position: fixed;
+  z-index: 1;
+  background: transparent;
+  left: -5%;
+  top: -10%;
+}
+
+.background-container {
+  width: 60%;
+  height: 58%;
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  // background: red;
+
+  .outer {
+    width: 98%;
+    height: 98%;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .middle {
+    width: 94%;
+    height: 90%;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #4C314D;
+    border-radius: 32px;
+  }
+
+  .inner {
+    width: 90%;
+    height: 82%;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    p {
+      background: none;
+    }
+  }
+
+  .outer, .inner {
+    background: #BBBBF6;
+    border-radius: 32px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .profile-picture {
+    width: 25%;
+    left: -10%;
+    top: -10%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .profile-picture {
+    width: 28%;
+    left: -8%;
+    top: -5%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .profile-picture {
+    width: 32%;
+    left: -9%;
+    top: -2%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .profile-picture {
+    width: 40%;
+    left: -9%;
+    top: -2%;
+  }
+}

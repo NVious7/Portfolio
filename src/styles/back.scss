@@ -1,0 +1,52 @@
+.back-button {
+  position: fixed;
+  bottom: 2.19rem;
+  left: 3.88rem;
+  cursor: pointer;
+}
+
+.back-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 9.38rem;
+  height: 3.13rem;
+  background: none;
+}
+
+.back {
+  position: absolute;
+  bottom: 0.45rem;
+  left: 2.75rem;
+  font-weight: 500;
+  background: transparent;
+  color: #000000;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@media only screen and (max-width: 800px) {
+  .back-background {
+    width: 5rem;
+    height: 3.13rem;
+  }
+
+  .back {
+    font-size: 12px;
+    bottom: 0.45rem;
+    left: 1.60rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .back-background {
+    width: 4rem;
+    height: 3.13rem;
+  }
+
+  .back {
+    font-size: 12px;
+    bottom: 0.45rem;
+    left: 1.08rem;
+  }
+}
