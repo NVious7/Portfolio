@@ -31,11 +31,11 @@
 
       img {
         background: transparent;
-        width: 80%;
+        width: 100%;
         height: auto;
         transition: ease 0.3s;
       }
-      
+
       .middle {
         position: absolute;
         padding: 6px;
@@ -43,17 +43,15 @@
         opacity: 0%;
         background: none;
         color: #ffffff;
-        
+
         .text {
           color: #ffffff;
           font-size: 24px;
           padding: 16px 32px;
           background: none;
         }
-        
-        
       }
-      
+
       &:hover img {
         opacity: 70%;
       }
@@ -72,6 +70,16 @@
     background: transparent;
     width: 100%;
     height: 50%;
+  }
+}
+
+.projects-card {
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    width: 80%;
   }
 }
 

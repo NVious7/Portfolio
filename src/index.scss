@@ -5,4 +5,10 @@
   padding: 0;
   background: #4C314D;
   font-family: 'Poppins', sans-serif;
+  
+  &::-webkit-scrollbar {
+  display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
 }
