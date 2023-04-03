@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/about.scss";
 import Back from "./Back";
+import { motion } from "framer-motion";
 
 function About() {
   return (
-    <>
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
       <div className="about-container">
         <div className="background-container">
           <img
@@ -50,7 +51,7 @@ function About() {
         </div>
       </div>
       <Back />
-    </>
+    </motion.div>
   );
 }
 

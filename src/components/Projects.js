@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/projects.scss";
 import Back from "./Back";
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <>
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
       <div className="projects-container">
         <div className="projects-row">
           <div className="projects-card">
@@ -72,7 +73,7 @@ function Projects() {
         </div>
       </div>
       <Back />
-    </>
+    </motion.div>
   );
 }
 

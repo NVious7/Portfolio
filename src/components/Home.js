@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/home.scss";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div className="home-container">
+    <motion.div className="home-container" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
       <a href="https://github.com/NVious7" target="_blank" rel="noreferrer">
         <img src="/github@2x.png" alt="GitHub Text & Icon" />
       </a>
@@ -20,7 +21,7 @@ function Home() {
       <Link to="/about">
         <img src="/about@2x.png" alt="About Text & Icon" />
       </Link>
-    </div>
+    </motion.div>
   );
 }
 
