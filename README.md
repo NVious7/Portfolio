@@ -17,11 +17,6 @@
   </p>
 </p>
 
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-
 ## About The Project
 
 ![Screen Shot](public/Screenshot.png)
