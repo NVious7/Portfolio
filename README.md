@@ -17,10 +17,6 @@
   </p>
 </p>
 
-<p align="center">
-![Contributors](https://img.shields.io/github/contributors/NVious7/Portfolio?color=dark-green) ![Forks](https://img.shields.io/github/forks/NVious7/Portfolio?style=social) ![Stargazers](https://img.shields.io/github/stars/NVious7/Portfolio?style=social) ![Issues](https://img.shields.io/github/issues/NVious7/Portfolio)
-</p>
-
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
