@@ -6,10 +6,10 @@
     Learn about me!
     <br/>
     <br/>
-    <a href="https://nvious7-portfolio.netlify.app/"><strong>View Live Site!</strong></a>
+    <a href="https://nvious7-portfolio.netlify.app/"><strong>View Live Site »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/NVious7/Portfolio">Explore the docs »</a>
+    <a href="https://github.com/NVious7/Portfolio">Explore the docs</a>
     .
     <a href="https://github.com/NVious7/Portfolio/issues">Report Bug</a>
     .
@@ -17,7 +17,8 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/NVious7/Portfolio?color=dark-green) ![Forks](https://img.shields.io/github/forks/NVious7/Portfolio?style=social) ![Stargazers](https://img.shields.io/github/stars/NVious7/Portfolio?style=social) ![Issues](https://img.shields.io/github/issues/NVious7/Portfolio) 
+<div align="center">
+![Contributors](https://img.shields.io/github/contributors/NVious7/Portfolio?color=dark-green) ![Forks](https://img.shields.io/github/forks/NVious7/Portfolio?style=social) ![Stargazers](https://img.shields.io/github/stars/NVious7/Portfolio?style=social) ![Issues](https://img.shields.io/github/issues/NVious7/Portfolio)</div>
 
 ## Table Of Contents
 
