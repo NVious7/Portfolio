@@ -6,10 +6,10 @@
     Learn about me!
     <br/>
     <br/>
-    <a href="https://github.com/NVious7/Portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://nvious7-portfolio.netlify.app/"><strong>View Live Site!</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/NVious7/Portfolio">View Demo</a>
+    <a href="https://github.com/NVious7/Portfolio">Explore the docs »</a>
     .
     <a href="https://github.com/NVious7/Portfolio/issues">Report Bug</a>
     .
